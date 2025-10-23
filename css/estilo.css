@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2 {
+    /* tamanho, familia */
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    /* largura, altura */
+    width: 300px;
+    height: 200px;
+}
+
+#css {
+    /* tamanho, cor e espessura(grosso/fino) */
+    font-size: 36px;
+    color: salmon;
+    font-weight: bold;
+}
+
+#fundo {
+    /* cor de fundo, tamanho e espessura(grosso/fino) */
+    background-color: lightskyblue;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#borda {
+    border: solid;
+    border-color: olive;
+    font-size: 32px;
+}
+
+#mistura1 {
+    border: 2px solid olive;
+    font-size: 32px;
+    color: seagreen;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#mistura2 {
+    /* cor de fundo, tamanho, espessura, estilo, cor da borda, cor, 
+    com underline fica linha em baixo, com none - sem linha  */
+    background-color: slateblue;
+    font-size: 72px;
+    font-weight: bolder;
+    font-style: italic;
+    border-color: olive;
+    color: tomato;
+    text-decoration: underline;
+}
